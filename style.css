@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "myFont";
+    src: url(assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "myFont";
+}
+
+body{
+    background-color: #fff5f2;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.opsheDiv{
+    margin-top: 50px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+.firstDiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.firstDiv > div{
+    margin: 15px;
+}
+
+.secondDiv{
+    display: flex;
+    flex-direction: column;
+    width: 266px;
+}
+
+.secondDiv > div{
+    margin: 15px;
+}
+
+.thirdDiv{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 266px;
+}
+.thirdDiv > div{
+    margin: 15px;
+}
+.fourthDiv{
+    display: flex;
+    flex-direction: column;
+    width: 266px;
+}
+.fourthDiv > div{
+    margin: 15px;
+}
+
+
+/* ------------------------------------------------------ */
+.create{
+    width: 200px;
+    height: 360px;
+    padding: 18px;
+    background-color: #ffe8d8;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.create p{
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 0.9;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.create p span{
+    font-style: italic;
+    color: #4400ff;
+}
+.create img{
+    width: 90%;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+.writeContent{
+    width: 200px;
+    height: 360px;
+    background-color: #f0ca50 ;
+    border-radius: 10px;
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 0.9;
+    padding: 18px;
+}
+.writeContent img{
+    width: 100%;
+    position: relative;
+    left: 5px;
+    top: 45px;
+}
+.writeContent p{
+    position: relative;
+    left: 5px;
+}
+
+/* ---------------------------------------------------------- */
+
+.socialMedia{
+    width: 466px;
+    height: 255px;
+    background-color: #4400ff;
+    padding: 18px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.socialMedia p{
+    color: white;
+    text-align: center;
+}
+.socialMedia :first-child{
+    font-size: 60px;
+    line-height: 0.92;
+    margin-top: 30px;
+}
+.socialMedia :first-child :first-child{
+    color: #f0ca50;
+}
+.socialMedia :first-child :last-child{
+    font-style: italic;
+}
+
+.review{
+    font-size: 18px;
+    margin: none;
+}
+
+.socialMedia img{
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.managePlatforms{
+    width: 200px;
+    height: 200px;
+    padding: 18px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.managePlatforms img{
+    width: 295px;
+}
+.managePlatforms p{
+    font-size: 34px;
+    letter-spacing: -1px;
+    line-height: 0.9;
+}
+
+.audience{
+    width: 200px;
+    height: 200px;
+    padding: 18px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 10px;
+}
+.audience p span{
+    font-size: 60px;
+
+}
+.audience img{
+    width: 80%;
+    margin-top: 80px;
+    position: absolute;
+    bottom: 18px;
+    left: 18px;
+}
+/* ---------------------------------------------------------- */
+
+.followerGrowth{
+    width: 473px;
+    height: 200px;
+    background-color: #4400ff;
+    border-radius: 10px;
+    padding: 18px;
+    display: flex;
+
+}
+
+.followerGrowth img{
+    height: 200px;
+}
+
+.followerGrowth p{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    margin: auto 0;
+    font-size: 36px;
+    line-height: 0.9;
+    margin-left: 10px;
+    
+}
+
+.consistent{
+    width: 200px;
+    height: 200px;
+    padding: 18px;
+    background-color: #f0ca50;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.consistent p{
+    font-size: 34px;
+    letter-spacing: -1px;
+    line-height: 0.9;
+}
+
+.consistent img{
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* ---------------------------------------------------------- */
+
+.schedule{
+    width: 200px;
+    height: 522px;
+    padding: 18px;
+    border-radius: 10px;
+    background-color: #e0d4ff;
+    overflow: hidden;
+    padding-left: 25px;
+}
+
+.schedule img{
+    width: 320px;
+    margin-top: 20px;
+}
+
+.schedule :first-child{
+    font-size: 34px;
+    letter-spacing: -1px;
+    line-height: 0.9;
+    margin-top: 34px;
+}
+.schedule :last-child{
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    line-height: 0.99;
+}
